@@ -7,7 +7,7 @@ const readmeGen = require("./utils/generateMarkdown.js");
 
 // Your code using inquirer, colors, validator, and readmeGen
 
-// TODO: Create an array of questions for user input
+// array of questions for user input
 const questions = [
 "Enter your username",
 "Enter your email",
@@ -19,8 +19,14 @@ const questions = [
 "Tests and Testing",
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function to write README file
+function writeToFile(fileName, data) {
+    function writeToFile(data) {
+        fs.writeFile("./md/README.md", readmeGen.generateMarkdown(data), (err) =>
+          err ? console.log(err) : console.log(color.rainbow("Find the generated README.md at ./md")));
+      }
+
+}
 
 // TODO: Create a function to initialize app
 function init() {}
