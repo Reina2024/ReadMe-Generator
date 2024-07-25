@@ -40,4 +40,3 @@ None Yet
 ## Video Link
 https://app.screencastify.com/v3/watch/axAeT2pA2ZORcscYuVP1
 
-[![Video](https://app.screencastify.com/v3/watch/axAeT2pA2ZORcscYuVP1)]
