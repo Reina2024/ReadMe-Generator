@@ -62,6 +62,16 @@ function generateMarkdown(data) {
   renderQuestionsSection(username, email);
 }
 
+// Table of Contents
+function insertTableOfContent(title) {
+  return "\n\n## Table of content" + "\n- " + title + 
+  "\n  - [Description](#Description)" +
+  "\n  - [Installation](#Installation)" +
+  "\n  - [Usage](#Usage)" +
+  "\n  - [Contributing](#Contributing)" +
+  "\n  - [Tests](#Tests)" +
+  "\n  - [License](#License)";
+}
 
 
 module.exports = {generateMarkdown};
