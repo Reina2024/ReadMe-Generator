@@ -4,7 +4,6 @@
 
 ## Table of Contents
 
-- [ReadMe Generator](#ReadMe Generator)
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
