@@ -26,6 +26,72 @@ function writeToFile(fileName, data) {
       }
 
 }
+// function to collect ReadMe Info
+function collectReadme() {
+    inquire.prompt([
+      {
+        type: 'input',
+        message: color.zebra(questions[0]),
+        name: "username",
+        validate: checkEmpty,
+      },
+      {
+        type: 'input',
+        message: color.zebra(questions[1]),
+        name: "email",
+        validate: checkEmail,
+      },
+      {
+        type: 'input',
+        message: color.zebra(questions[2]),
+        name: "title",
+        validate: checkEmpty,
+      },
+      {
+        type: 'input',
+        message: color.zebra(questions[3]),
+        name: "description",
+        validate: checkEmpty,
+      },
+      {
+        type: 'input',
+        message: color.zebra(questions[4]),
+        name: "installation",
+        validate: checkEmpty,
+      },
+      {
+        type: 'input',
+        message: color.zebra(questions[5]),
+        name: "usage",
+        validate: checkEmpty,
+      },
+      {
+        type: 'list',
+        message: color.zebra(questions[6]),
+        name: "license",
+        choices: licenses,
+        validate: checkEmpty,
+      },
+      {
+        type: 'input',
+        message: color.zebra(questions[7]),
+        name: "contributing",
+        validate: checkEmpty,
+      },
+      {
+        type: 'input',
+        message: color.zebra(questions[8]),
+        name: "tests",
+        validate: checkEmpty,
+      },
+    ])
+    .then((readme) =>
+      writeToFile(readme)
+    )
+    .catch((error) => 
+       console.log(error)
+    );
+  }
 
 //function to initialize app
 function init() {
@@ -61,4 +127,3 @@ function checkEmpty(str) {
     return color.bgBrightRed("Please Enter the Required Information");
   }
 
-  
