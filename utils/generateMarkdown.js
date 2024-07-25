@@ -73,5 +73,30 @@ function insertTableOfContent(title) {
   "\n  - [License](#License)";
 }
 
+// render links to github, email,title ect
+
+function renderGitHubLink(username) {
+  return "[" + username + "'s GitHub profile.](https://github.com/" + username + ")";
+}
+
+
+function renderEmailLink(email) {
+  return "[Contact me at " + email + "](mailto:" + email + ")";
+}
+
+
+function renderQuestionsSection (username, email) {
+  return "\n\n## Questions\n" + renderGitHubLink(username) + "\n\n" + renderEmailLink(email);
+}
+
+
+function renderTitleSection (title, license) {
+  return "# " + title + "\n" + renderLicenseBadge(license);
+}
+
+
+function renderCommonSection(secTitle, content) {
+  return "\n\n## " + secTitle + "\n" + content;
+}
 
 module.exports = {generateMarkdown};
