@@ -22,7 +22,7 @@ const questions = [
 function writeToFile(fileName, data) {
     function writeToFile(data) {
         fs.writeFile("./md/README.md", readmeGen.generateMarkdown(data), (err) =>
-          err ? console.log(err) : console.log(color.rainbow("Find the generated README.md at ./md")));
+          err ? console.log(err) : console.log(color.BrightBlue("Find the generated README.md at ./md")));
       }
 
 }
@@ -95,7 +95,7 @@ function collectReadme() {
 
 //function to initialize app
 function init() {
-    console.log("\n"+ color.america("Please enter an answer for each question. You can find the generated README at ./md/ReadME "));
+    console.log("\n"+ color.BrightBlue("Please enter an answer for each question. You can find the generated README at ./md/ReadME "));
   collectReadme();
 }
 
