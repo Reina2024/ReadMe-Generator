@@ -1,23 +1,20 @@
 
-# ReadMe-Generator
-
-
-## License
-This project adopts MIT License license practices. Check the website for license details: https://opensource.org/licenses/MIT
+# ReadMe-Gnereator
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents
 
-- [ReadMe-Generator](#ReadMe-Generator)
+- [ReadMe-Gnereator](#ReadMe-Gnereator)
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [License](#license)
-  - [Questions](#Questions)
+  - [Questions](#questions)
 
 ## Description
-Generates readme files using the command line
+Generate read me files using command line
 
 ## Installation
 npm
@@ -33,9 +30,9 @@ no
 
 
 ## License
-This project adopts MIT License license practices. Check the website for license details: https://opensource.org/licenses/MIT
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [License Link](https://opensource.org/licenses/MIT)
 ## Questions
 
-[Reina2024's GitHub profile.](https://github.com/Reina2024)
-  
+[Reina2024's GitHub Profile](https://github.com/Reina2024)
+
 [Contact me at simmsreina@gmail.com](mailto:simmsreina@gmail.com)
