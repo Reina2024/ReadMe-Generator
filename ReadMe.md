@@ -29,7 +29,7 @@ None Yet
 
 
 ## License
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [License Link](https://opensource.org/licenses/MIT)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) Please find out more information about this license at the following link:[License Link](https://opensource.org/licenses/MIT)
 ## Questions
 
 [Reina2024's GitHub Profile](https://github.com/Reina2024)
