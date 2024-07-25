@@ -2,7 +2,6 @@
 const inquirer = require("inquirer");
 const colors = require("colors");
 const validator = require("validator");
-const boxen = require('boxen');
 const readmeGen = require("./utils/generateMarkdown.js");
 
 // Your code using inquirer, colors, validator, and readmeGen
@@ -28,8 +27,11 @@ function writeToFile(fileName, data) {
 
 }
 
-// TODO: Create a function to initialize app
-function init() {}
+//function to initialize app
+function init() {
+    console.log("\n"+ color.america("Please enter an answer for each question. You can find the generated README at ./md/ReadME "));
+  collectReadme();
+}
 
 // Function call to initialize app
 init();
