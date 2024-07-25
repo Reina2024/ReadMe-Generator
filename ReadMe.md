@@ -14,19 +14,19 @@
   - [Questions](#questions)
 
 ## Description
-it Generates Read Me files using command line prompts
+This is a README generator that creates READMe files using input from the command line
 
 ## Installation
-npm
+Requires Node js: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm, clone the repo from https://github.com/Reina2024/ReadMe-Generator  , then install  npm (install npm, npm i colors, npm i validator, npm i   inquirer@8.2.4
 
 ## Usage
-no
+Type node index.js to run the prompts. A README file will be generated to ReadMe.md
 
 ## Contributing
-go ahead
+FST TAs and Staff
 
 ## Tests
-no
+None Yet
 
 
 ## License
