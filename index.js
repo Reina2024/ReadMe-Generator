@@ -45,3 +45,20 @@ const licenses = [
     "GNU GPL v3",
     "No license"
   ]
+
+//   Validate Inputs
+function checkEmail(str) {
+    if (validator.isEmail(str)) {
+      return true;
+    }
+    return color.bgBrightRed("Please Enter a Vaild Email");
+}
+
+function checkEmpty(str) {
+    if (!validator.isEmpty(str.trim())) {
+      return true;
+    }
+    return color.bgBrightRed("Please Enter the Required Information");
+  }
+
+  
