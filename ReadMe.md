@@ -1,10 +1,10 @@
 
-# ReadMe-Gnereator
+# ReadMe Generator
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Table of Contents
 
-- [ReadMe-Gnereator](#ReadMe-Gnereator)
+- [ReadMe Generator](#ReadMe Generator)
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -14,16 +14,16 @@
   - [Questions](#questions)
 
 ## Description
-Generate read me files using command line
+it Generates Read Me files using command line prompts
 
 ## Installation
 npm
 
 ## Usage
-undefined
+no
 
 ## Contributing
-no
+go ahead
 
 ## Tests
 no

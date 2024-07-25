@@ -12,6 +12,7 @@ const questions = [
   "Description:",
   "Installation Guidance?",
   "Licenses?",
+  "Usage",
   "Contributions:",
   "Tests and Testing:"
 ];
@@ -60,7 +61,12 @@ function collectReadme() {
       name: "installation",
       validate: checkEmpty,
     },
-          
+          {
+      type: 'input',
+      message: colors.zebra(questions[4]),
+      name: "installation",
+      validate: checkEmpty,
+    },
     {
         type: "list",
         message: colors.zebra(questions[5]),
@@ -94,6 +100,12 @@ function collectReadme() {
       name: "tests",
       validate: checkEmpty,
     },
+    {
+        type: 'input',
+        message: colors.zebra(questions[8]),
+        name: "usage",
+        validate: checkEmpty,
+      },
   ])
   .then((readme) => {
     writeToFile(readme);
